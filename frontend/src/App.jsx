@@ -2,6 +2,7 @@ import { useState } from "react";
 import wikiLogo from "/LOGO_NOVO.png";
 import "./App.css";
 import WeatherWidget from "./components/weather";
+import Com_Sorte from "./components/sorte";
 
 function App() {
   const [inputValueLocation, setInputValueLocation] = useState("Alfenas");
